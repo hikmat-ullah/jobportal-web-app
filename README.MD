@@ -35,7 +35,7 @@ If your Laravel project requires any environment variables, create a .env file i
 
 Step 4: Build and Run Docker Containers
 
-Linux
+Linux (Terminal):
 
 docker-compose up -d
 
