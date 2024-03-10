@@ -18,11 +18,11 @@ Before proceeding, ensure that you have Docker and Docker Compose installed on y
 https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-22-04
 
 
-###### Docker compose Installation Guide
+### Docker compose Installation Guide
 
 https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-22-04
 
-####### Step 1: Clone the Repository
+### Step 1: Clone the Repository
 
 
 Clone the GitHub repository containing your Laravel project code.
@@ -31,12 +31,13 @@ Clone the GitHub repository containing your Laravel project code.
 Get into the code directory by running the below command
 
 
-######### cd jobportal-web-app
+cd jobportal-web-app
 
-Step 3: Configure Environment Variables
+
+#### Step 3: Configure Environment Variables
 If your Laravel project requires any environment variables, create a .env file in the project root directory and set the necessary variables.
 
-Step 4: Build and Run Docker Containers
+##### Step 4: Build and Run Docker Containers
 
 Linux (Terminal):
 
@@ -46,7 +47,7 @@ Windows (PowerShell):
 
 docker-compose up -d
 
-###### Step 5: Access the Application
+#### Step 5: Access the Application
 
 
 Once the Docker containers are up and running, you can access your Laravel application in a web browser.
@@ -58,7 +59,7 @@ Windows: If using Docker Desktop for Windows, you can access the application at 
 If using Docker Toolbox, replace localhost with the IP address of the Docker machine.
 
 
-Step 6: Stop and Remove Containers
+#### Step 6: Stop and Remove Containers
 
 
 To stop and remove the Docker containers, run the following command:
@@ -67,5 +68,5 @@ To stop and remove the Docker containers, run the following command:
 docker-compose down
 
 
-This guide should help you to get this Laravel project up and running using Docker on both Linux and Windows platforms. 
+##### This guide should help you to get this Laravel project up and running using Docker on both Linux and Windows platforms. 
 Feel free to customize it further based on your specific project requirements.
