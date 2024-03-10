@@ -4,7 +4,7 @@ Running PHP Laravel Project with Docker
 
 This guide provides instructions on how to run a PHP Laravel project using Docker on both Linux and Windows platforms.
 
-Prerequisites
+# Prerequisites
 
 Before proceeding, ensure that you have Docker and Docker Compose installed on your system.
 
