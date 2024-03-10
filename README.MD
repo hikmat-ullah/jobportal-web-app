@@ -1,26 +1,28 @@
+# How to run this project on your laptop
+
 Here's a brief guide on how to run this PHP Laravel project using Docker on both Linux and Windows:
 
-Running PHP Laravel Project with Docker
+## Running PHP Laravel Project with Docker
 
 This guide provides instructions on how to run a PHP Laravel project using Docker on both Linux and Windows platforms.
 
-# Prerequisites
+### Prerequisites
 
 Before proceeding, ensure that you have Docker and Docker Compose installed on your system.
 
 
-Docker Installation Guide on ubuntu 
+#### Docker Installation Guide on ubuntu 
 
 
 
 https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-ubuntu-22-04
 
 
-Docker compose Installation Guide
+###### Docker compose Installation Guide
 
 https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-22-04
 
-Step 1: Clone the Repository
+####### Step 1: Clone the Repository
 
 
 Clone the GitHub repository containing your Laravel project code.
@@ -29,7 +31,7 @@ Clone the GitHub repository containing your Laravel project code.
 Get into the code directory by running the below command
 
 
-cd jobportal-web-app
+######### cd jobportal-web-app
 
 Step 3: Configure Environment Variables
 If your Laravel project requires any environment variables, create a .env file in the project root directory and set the necessary variables.
@@ -44,7 +46,7 @@ Windows (PowerShell):
 
 docker-compose up -d
 
-Step 5: Access the Application
+###### Step 5: Access the Application
 
 
 Once the Docker containers are up and running, you can access your Laravel application in a web browser.
