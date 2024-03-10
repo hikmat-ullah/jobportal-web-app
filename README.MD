@@ -37,7 +37,7 @@ cd jobportal-web-app
 ### Step 3: Configure Environment Variables
 If your Laravel project requires any environment variables, create a .env file in the project root directory and set the necessary variables.
 
-##### Step 4: Build and Run Docker Containers
+### Step 4: Build and Run Docker Containers
 
 Linux (Terminal):
 
